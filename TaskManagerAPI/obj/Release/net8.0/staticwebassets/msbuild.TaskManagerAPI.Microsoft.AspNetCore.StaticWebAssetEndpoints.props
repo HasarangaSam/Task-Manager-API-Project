@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/TaskManagerAPI/taskmanager.6b5nvfyyi6.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\taskmanager.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6b5nvfyyi6"},{"Name":"integrity","Value":"sha256-ojVJ9hrcELRTzaiZrwuexYxksYdKVJO0il3SEC4J8UQ="},{"Name":"label","Value":"_content/TaskManagerAPI/taskmanager.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9121"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ojVJ9hrcELRTzaiZrwuexYxksYdKVJO0il3SEC4J8UQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 05:05:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TaskManagerAPI/taskmanager.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\taskmanager.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ojVJ9hrcELRTzaiZrwuexYxksYdKVJO0il3SEC4J8UQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"9121"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ojVJ9hrcELRTzaiZrwuexYxksYdKVJO0il3SEC4J8UQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 05:05:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
